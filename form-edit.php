@@ -19,7 +19,7 @@ if( mysqli_num_rows($query) < 1 ){
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Formulir Edit Siswa | SMK Coding</title>
+    <title>Formulir Edit Siswa | SMK Teknik-Computer</title>
     <style>
 
         body {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pendaftaran Siswa Baru | SMK Coding</title>
+    <title>Pendaftaran Siswa Baru | SMK Teknik-Computer</title>
     <style>
         body {
             font-family: Arial, sans-serif;
