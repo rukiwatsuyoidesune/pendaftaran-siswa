@@ -81,7 +81,7 @@
         <h3>Formulir Pendaftaran Siswa Baru</h3>
     </header>
 
-    <form action="proses-pendaftaran.php" method="POST">
+    <form action="proses-pendaftaran.php" method="POST" enctype="multipart/form-data">
         <fieldset>
             <p>
                 <label for="nama">Nama:</label>
@@ -89,13 +89,17 @@
             </p>
             <p>
                 <label for="alamat">Alamat:</label>
-                <textarea name="alamat" placeholder="Alamat lengkap" required></textarea>
+                <textarea name="alamat" required></textarea>
+            </p>
+            <p>
+                <label for="foto">Foto (1:1):</label>
+                <input type="file" name="foto">
             </p>
             <p class="radio-group">
                 <label for="jenis_kelamin">Jenis Kelamin:</label>
                 <ul>
-                <label><input type="radio" name="jenis_kelamin" value="laki-laki" required> Laki-laki</label>
-                <label><input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan</label>
+                <label><input type="radio" name="jenis_kelamin" value="Laki-laki" required> Laki-laki</label>
+                <label><input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan</label>
                 </ul>
             </p>
             <p>

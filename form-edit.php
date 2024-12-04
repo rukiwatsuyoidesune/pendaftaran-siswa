@@ -150,10 +150,17 @@ if( mysqli_num_rows($query) < 1 ){
                 <textarea name="alamat" placeholder="Alamat lengkap" required><?php echo $siswa['alamat'] ?></textarea>
             </p>
 
+            <p>
+                <?php echo "<td><img src='images/".$siswa['foto']."' width='100' height='100'></td>"; ?>
+                <br>
+                <label for="foto">Foto:</label>
+                <input type="file" name="foto">
+            </p>
+
             <div class="radio-group">
                 <label>Jenis Kelamin:</label>
-                <label><input type="radio" name="jenis_kelamin" value="laki-laki" <?php echo ($siswa['jenis_kelamin'] == 'laki-laki') ? "checked" : "" ?>> Laki-laki</label>
-                <label><input type="radio" name="jenis_kelamin" value="perempuan" <?php echo ($siswa['jenis_kelamin'] == 'perempuan') ? "checked" : "" ?>> Perempuan</label>
+                <label><input type="radio" name="jenis_kelamin" value="Laki-laki" <?php echo ($siswa['jenis_kelamin'] == 'Laki-laki') ? "checked" : "" ?>> Laki-laki</label>
+                <label><input type="radio" name="jenis_kelamin" value="Perempuan" <?php echo ($siswa['jenis_kelamin'] == 'Perempuan') ? "checked" : "" ?>> Perempuan</label>
             </div>
 
             <p>
