@@ -136,7 +136,7 @@ if( mysqli_num_rows($query) < 1 ){
         <h3>Formulir Edit Siswa</h3>
     </header>
 
-    <form action="proses-edit.php" method="POST">
+    <form action="proses-edit.php" method="POST" enctype="multipart/form-data">
         <fieldset>
             <input type="hidden" name="id" value="<?php echo $siswa['id'] ?>" />
 
