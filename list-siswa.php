@@ -76,6 +76,15 @@
             font-size: 1.1em;
             color: #555;
         }
+        .btn-pdf {
+        color: white;
+        background-color: red;
+        border-color: red;
+        }
+        .btn-pdf:hover {
+            background-color: darkred;
+            border-color: darkred;
+        }
     </style>
 </head>
 
@@ -86,6 +95,7 @@
 
     <nav>
         <a href="form-daftar.php">[+] Tambah Baru</a>
+        <a href="pdf.php" class="btn-pdf">Download File PDF</a>
     </nav>
 
     <table>
